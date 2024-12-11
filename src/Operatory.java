@@ -1,5 +1,7 @@
 package src;
 
+import java.util.Arrays;
+
 public class Operatory {
     public static void main(String[] args) {
         //operatory matematyczne
@@ -13,8 +15,8 @@ public class Operatory {
 
 
         //operatory porównania
-        int numOne = 1;
-        int numTwo = 2;
+        int numOne = 2;
+        int numTwo = 1;
 
         System.out.println(numOne > numTwo);
         System.out.println(numOne < numTwo);
@@ -33,7 +35,14 @@ public class Operatory {
         System.out.println(numOne > numTwo && numOne == 1); // false i  true -> false
         System.out.println(numOne > numTwo && numOne != 1); // false i false -> false
 
+    if(numOne < numTwo){
+        System.out.println("number one is less than number two");
+    } else {
+        System.out.println("number one is greater than number two");
 
+
+
+    }
 
     }
 }
