@@ -7,7 +7,7 @@ public class Instrukcje {
         String loginPage = "Login";
         String contactPage = "Contact";
 
-        String page = homePage;
+        String page = "otherPage";
         switch (page) {
             case "Home":
                 System.out.println("przełączam się do strony Home");

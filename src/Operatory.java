@@ -35,14 +35,13 @@ public class Operatory {
         System.out.println(numOne > numTwo && numOne == 1); // false i  true -> false
         System.out.println(numOne > numTwo && numOne != 1); // false i false -> false
 
-    if(numOne < numTwo){
-        System.out.println("number one is less than number two");
-    } else {
-        System.out.println("number one is greater than number two");
+        if (numOne < numTwo) {
+            System.out.println("number one is less than number two");
+        } else {
+            System.out.println("number one is greater than number two");
 
 
-
-    }
+        }
 
     }
 }
