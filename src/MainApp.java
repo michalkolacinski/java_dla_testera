@@ -17,6 +17,11 @@ public class MainApp {
         System.out.println(false);
         //false
 
+        User michal = new User();
+        System.out.println(michal.firstName);
+
+        User tomek = new User();
+        System.out.println(tomek.email);
     }
 
 }
