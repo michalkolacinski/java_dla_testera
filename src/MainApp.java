@@ -1,7 +1,7 @@
 package src;
 
 public class MainApp {
-    public static void main(String[] args)  {
+    public static void main(String[] args) {
         //Start aplikacji
         System.out.println("hello from java 11");
         System.out.println(10);

@@ -13,12 +13,12 @@ public class User {
     // metoda void nic nie zwraca tylko wyświetla infrormacje
 
     // zwracany typ + nazwa metody
-    void getFullName(){
+    void getFullName() {
         // ciało metody
         System.out.println(firstName + " " + lastName);
     }
 
-    void getAllInfo(){
+    void getAllInfo() {
         System.out.println(firstName + " " + lastName + " " + email + " " + age + " " + isAdult);
     }
 
@@ -27,11 +27,12 @@ public class User {
     int getUserAge() {
         return age;
     }
-   boolean isUserAdult(){
-        if(age >= 18) {
+
+    boolean isUserAdult() {
+        if (age >= 18) {
             return true;
-        }else{
+        } else {
             return false;
         }
-   }
+    }
 }
