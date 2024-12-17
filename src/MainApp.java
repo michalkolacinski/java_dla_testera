@@ -38,6 +38,7 @@ public class MainApp {
         System.out.println(tomek.firstName + " " + tomek.lastName);
         tomek.getFullName();
         tomek.getAllInfo();
+        System.out.println(tomek.yourAgePlus10(tomek.age));
 
         int userAge = tomek.getUserAge();
         System.out.println(userAge);
@@ -46,8 +47,9 @@ public class MainApp {
         System.out.println("czy tomek jest dorosły : " + userAdult);
 
         michal.greetings("Michał");
-        michal.
-
+        michal.howOldAreYou("Michal", 17);
+        int agePlus10 = michal.yourAgePlus10(17);
+        System.out.println(agePlus10);
 
     }
 
