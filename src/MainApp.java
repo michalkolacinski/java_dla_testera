@@ -23,7 +23,9 @@ public class MainApp {
         michal.age = 41;
         michal.email = "michal@gmail.com";
         michal.isAdult = false;
-        System.out.println(michal.firstName);
+        michal.getFullName();
+        System.out.println(michal.firstName + " " + michal.lastName);
+        michal.getAllInfo();
 
         User tomek = new User();
         tomek.firstName = "Tomek";
@@ -33,7 +35,10 @@ public class MainApp {
         tomek.isAdult = true;
         System.out.println(tomek.email);
         System.out.println(tomek.isAdult);
-        System.out.println(tomek.age);
+        System.out.println(tomek.firstName + " " + tomek.lastName);
+        tomek.getFullName();
+        tomek.getAllInfo();
+
 
     }
 
