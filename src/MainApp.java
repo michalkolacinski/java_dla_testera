@@ -43,7 +43,8 @@ public class MainApp {
         System.out.println(userAge);
 
         boolean userAdult = tomek.isUserAdult();
-        System.out.println(isU);
+        System.out.println("czy tomek jest dorosły : " + userAdult);
+
 
 
 
