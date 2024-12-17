@@ -10,6 +10,7 @@ public class User {
     boolean isAdult;
 
     // 2. Metody opisują co dany obiekt będzie mógł zrobić
+    // metoda void nic nie zwraca tylko wyświetla infrormacje
 
     // zwracany typ + nazwa metody
     void getFullName(){
