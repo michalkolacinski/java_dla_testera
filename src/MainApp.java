@@ -18,10 +18,23 @@ public class MainApp {
         //false
 
         User michal = new User();
+        michal.firstName = "Michal";
+        michal.lastName = "Kolacinski";
+        michal.age = 41;
+        michal.email = "michal@gmail.com";
+        michal.isAdult = false;
         System.out.println(michal.firstName);
 
         User tomek = new User();
+        tomek.firstName = "Tomek";
+        tomek.lastName = "Tomaszewski";
+        tomek.age = 23;
+        tomek.email = "tomek@gmail.com";
+        tomek.isAdult = true;
         System.out.println(tomek.email);
+        System.out.println(tomek.isAdult);
+        System.out.println(tomek.age);
+
     }
 
 }

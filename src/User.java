@@ -5,5 +5,5 @@ public class User {
     String lastName;
     String email;
     int age;
-
+    boolean isAdult;
 }
