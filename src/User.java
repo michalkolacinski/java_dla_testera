@@ -35,4 +35,13 @@ public class User {
             return false;
         }
     }
+
+    void greetings(String name) {
+        System.out.println("Hi " + name + ". Nice to see you!");
+
+        void howOldAreYou(String name, int userAge) {
+            System.out.println("Hi " + name + userAge + " old");
+
+        }
+    }
 }
