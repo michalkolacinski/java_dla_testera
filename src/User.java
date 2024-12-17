@@ -22,4 +22,16 @@ public class User {
         System.out.println(firstName + " " + lastName + " " + email + " " + age + " " + isAdult);
     }
 
+    // metoda int - zwraca integer
+
+    int getUserAge() {
+        return age;
+    }
+   boolean isUserAdult(){
+        if(age >= 18) {
+            return true;
+        }else{
+            return false;
+        }
+   }
 }
