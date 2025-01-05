@@ -40,6 +40,8 @@ public class Operatory {
         } else {
             System.out.println("number one is greater than number two");
 
+        // modulo - % operator reszty z dzielenia
+        // np System.out.println(10 % 4)   wyświetli na konsolę resztę z dzielenia 10 przez 4
 
         }
 
