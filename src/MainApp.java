@@ -52,6 +52,8 @@ public class MainApp {
         System.out.println(agePlus10);
 
 
+        michal.greetings("Michał");
+
         michal.greetings("Michał", "Kołaciński");
     }
 
