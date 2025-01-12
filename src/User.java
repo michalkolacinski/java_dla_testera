@@ -22,11 +22,11 @@ public class User {
     User (String firstNameParam, String lastNameParam, String emailParam, int ageParam, boolean isAdultParam ){
         System.out.println(firstNameParam + " " + lastNameParam + " " + emailParam + " " + ageParam + " " + isAdultParam);
 
-    firstName = firstNameParam;
-    lastName = lastNameParam;
-    email = emailParam;
-    age = ageParam;
-    isAdult = isAdultParam;
+    this.firstName = firstNameParam;  // po lewej stronie pole obiektu po prawej parametry jeżeli przed polem obiektu jest this
+    this.lastName = lastNameParam;    // parametr i pole obiektu może być tak samo nazwane bez końcówki param
+    this.email = emailParam;
+    this.age = ageParam;
+    this.isAdult = isAdultParam;
     }
 
     // zwracany typ + nazwa metody
