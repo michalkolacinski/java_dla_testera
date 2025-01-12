@@ -12,6 +12,23 @@ public class User {
     // 2. Metody opisują co dany obiekt będzie mógł zrobić
     // metoda void nic nie zwraca tylko wyświetla infrormacje
 
+    // 3. Konstruktor - tworzy nowe obiekty - domyślny tworzy pusty obiekt
+    // to nazwa klady wielką literą i okrągłe nawiasy
+
+    User() {
+
+    }
+
+    User (String firstNameParam, String lastNameParam, String emailParam, int ageParam, boolean isAdultParam ){
+        System.out.println(firstNameParam + " " + lastNameParam + " " + emailParam + " " + ageParam + " " + isAdultParam);
+
+    firstName = firstNameParam;
+    lastName = lastNameParam;
+    email = emailParam;
+    age = ageParam;
+    isAdult = isAdultParam;
+    }
+
     // zwracany typ + nazwa metody
     void getFullName() {
         // ciało metody
@@ -50,5 +67,8 @@ public class User {
     int yourAgePlus10(int userAge) {
         return userAge + 10;
     }
+
+
+
 }
 

@@ -17,6 +17,8 @@ public class MainApp {
         System.out.println(false);
         //false
 
+        User michal1 = new User("Michal", "michalowicz", "michal@michal.pl", 25, true );
+        System.out.println("michal1 first name: " + michal1.firstName);
         User michal = new User();
         michal.firstName = "Michal";
         michal.lastName = "Kolacinski";
