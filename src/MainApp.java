@@ -51,6 +51,8 @@ public class MainApp {
         int agePlus10 = michal.yourAgePlus10(17);
         System.out.println(agePlus10);
 
+
+        michal.greetingsFullName("Michał", "Kołaciński");
     }
 
 }
