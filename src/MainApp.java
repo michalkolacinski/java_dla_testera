@@ -52,7 +52,7 @@ public class MainApp {
         System.out.println(agePlus10);
 
 
-        michal.greetingsFullName("Michał", "Kołaciński");
+        michal.greetings("Michał", "Kołaciński");
     }
 
 }

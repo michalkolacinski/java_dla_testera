@@ -39,7 +39,7 @@ public class User {
     void greetings(String name) {
         System.out.println("Hi " + name + ". Nice to see you!");
     }
-    void greetingsFullName(String firstName, String lastName) {
+    void greetings(String firstName, String lastName) {
         System.out.println("Hi " +  firstName + " " + lastName + ". Nice to see you");
     }
 
