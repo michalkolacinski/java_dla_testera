@@ -3,10 +3,9 @@ package src;
 public class MainApp {
     public static void main(String[] args) {
 
-        Bug bug1 = new Bug("login issue", "testowy@test.te", 1, false);
+        Bug bug1 = new Bug("login issue", "testowy@test.te", 1);
 
-        Bug bug2 = new Bug("button issue", "mail@mail.mail", 3,
-                true);
+        Bug bug2 = new Bug("button issue", "mail@mail.mail", 3);
         bug2.showAllinfo();
 
         bug1.showAllinfo();

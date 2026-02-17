@@ -7,11 +7,11 @@ public class Bug {
     boolean bugStatus;
 
 
-    Bug(String bugDesciption, String reporterEmail, int bugPriority, boolean bugStatus) {
+    Bug(String bugDesciption, String reporterEmail, int bugPriority) {
         this.bugDesciption = bugDesciption;
         this.reporterEmail = reporterEmail;
         this.bugPriority = bugPriority;
-        this.bugStatus = bugStatus;
+        this.bugStatus = false;
 
     }
 
