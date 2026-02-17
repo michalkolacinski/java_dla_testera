@@ -15,18 +15,14 @@ public class User {
     // 3. Konstruktor - tworzy nowe obiekty - domyślny tworzy pusty obiekt
     // to nazwa klady wielką literą i okrągłe nawiasy
 
-    User() {
 
-    }
+    User (String firstName, String lastName, String email, int age){
 
-    User (String firstNameParam, String lastNameParam, String emailParam, int ageParam, boolean isAdultParam ){
-        System.out.println(firstNameParam + " " + lastNameParam + " " + emailParam + " " + ageParam + " " + isAdultParam);
-
-    this.firstName = firstNameParam;  // po lewej stronie pole obiektu po prawej parametry jeżeli przed polem obiektu jest this
-    this.lastName = lastNameParam;    // parametr i pole obiektu może być tak samo nazwane bez końcówki param
-    this.email = emailParam;
-    this.age = ageParam;
-    this.isAdult = isAdultParam;
+    this.firstName = firstName;  // po lewej stronie pole obiektu po prawej parametry jeżeli przed polem obiektu jest this
+    this.lastName = lastName;    // parametr i pole obiektu może być tak samo nazwane bez końcówki param
+    this.email = email;
+    this.age = age;
+    this.isAdult = isUserAdult();
     }
 
     // zwracany typ + nazwa metody
