@@ -12,6 +12,9 @@ public class MainApp {
         bug1.showReporter();
         bug1.showBugStatus();
         bug1.getBugPriority();
+
+        bug1.bugStatus = true;
+        bug1.showBugStatus();
     }
 
 }
